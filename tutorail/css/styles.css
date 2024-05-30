@@ -1,0 +1,98 @@
+/* Réinitialisation des styles pour le navigateur */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#4070f4;
+    color: #333;
+}
+header {
+    background-color:#4070f4;
+    color:#000000;
+    padding: 3px;
+
+    
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.contain {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {font-size: x-large;
+    text-align: center;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conditions {
+    margin-bottom: 20px;
+}
+
+
+
+.accept{
+   
+ >input {
+ &:hover + label:before {
+   border-color: black;
+ }
+ &:checked + label {
+   &:before {
+     border-color:black;
+   }
+   &:after {
+     -moz-animation: check 0.8s ease 0s running;
+     -webkit-animation: check 0.8s ease 0s running;
+     animation: check 0.8s ease 0s running;
+     display: block;
+     width: 7px;
+     height: 20px;
+     border-color: black;
+   }
+ }
+}
+
+}
